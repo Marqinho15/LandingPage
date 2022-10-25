@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 html {
-
+    /* background-image: url(background.jpg); */
+    font-family: Roboto, sans-serif;
 }
 body {
-    font-family: Roboto, sans-serif;
-    /* width: 1440px; */
-
+    
+    max-width: 1440px;
+    margin: auto;
 }
 .image1 {
     width: 550px;
@@ -14,8 +15,11 @@ body {
 .imglogo {
     display: flex;
     padding: 10px 10px;
-    width: 100px;
-    height: auto;
+    width: 34px;
+    height: 23px;
+}
+img {
+    height: 170px;
 }
 a {
     all: unset;
@@ -32,10 +36,11 @@ ul {
     display: flex;
     justify-content: space-between;
     background-color: #1F2937;
+    padding: 20px 200px 0 200px;
 }
 .header-left {
     display: flex;
-    font-size: 64px;
+    font-size: 34px;
     font-weight: 900;
     color: lightgray;
     font-family: Helvetica, sans-serif;
@@ -47,11 +52,18 @@ ul {
 .content1 {
     background-color: #1F2937;
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:100px 200px;
+}
+.content11 {
+    display: flex;
     flex-direction: column;
+    
 }
 .title1 {
     font-size: 48px;
-    font-weight:  extra-bold;
+    font-weight: 900;
     color: #F9FAF8
 }
 .desc1 {
@@ -59,14 +71,52 @@ ul {
     color: #E5E7EB;
 }
 .content2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+}
+.content2img {
+    display: flex;
+    margin: 30px;
 }
 .content3 {
     background: #E5E7EB;
+    padding:155px 200px 155px 200px;
     
 }
+.content4 {
+    display: flex;
+    padding: 100px 200px;
+}
+.content41{
+    display: flex;
+    /* flex-direction: column; */
+    width: 1024px;
+    /* height: 150px; */
+    /* gap: 80px; */
+    padding: 0 50px;
+    border-radius: 8px;
+    background: royalblue;
+    border: 1px solid royalblue;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    
+}
+.content411{
+    display: flex;
+    flex-direction: column;
+}
 .desc2 {
-    font-size: 36px;
-    font-;
+    font-size: 36px; 
+    font-style: italic;
+    font-weight:100;
+}
+.signature {
+    text-align:end;
+    font-weight:900;
+    font-size: 24px;
 }
 button {
   padding: 5px 16px;
@@ -74,11 +124,39 @@ button {
   background: royalblue;
   border: 1px solid royalblue;
   color: white;
+  margin: 10px 0;  
+  
+  width: 110px;
 }
-.content1,
-.content2,
-.content3,
-.footer,
-.header {
-    padding:0 200px;
+.content41 button {
+    border: 2px solid white;
+}
+.title2{
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.top1,
+.top2,
+.top3,
+.top4 {
+    width: 170px;
+    height: 170px;
+    /* padding: 20px; */
+    margin: 0 30px 30px 30px;
+    border: 5px solid royalblue;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+.top4 img {
+    border-radius: 18px;
+}
+.top4 div {
+    display: block;
+    padding: 10px 0 0 0;
+    text-align: center;   
 }
