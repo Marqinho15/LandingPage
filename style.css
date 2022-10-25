@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+html {
+
+}
+body {
+    font-family: Roboto, sans-serif;
+    /* width: 1440px; */
+
+}
+.image1 {
+    width: 550px;
+}
+.imglogo {
+    display: flex;
+    padding: 10px 10px;
+    width: 100px;
+    height: auto;
+}
+a {
+    all: unset;
+}
+ul {
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+    font-size: 24px;
+    color: #F9FAF8;
+    margin: 0 10px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+}
+.header-left {
+    display: flex;
+    font-size: 64px;
+    font-weight: 900;
+    color: lightgray;
+    font-family: Helvetica, sans-serif;
+}
+.header-links {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.content1 {
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
+}
+.title1 {
+    font-size: 48px;
+    font-weight:  extra-bold;
+    color: #F9FAF8
+}
+.desc1 {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.content2 {
+}
+.content3 {
+    background: #E5E7EB;
+    
+}
+.desc2 {
+    font-size: 36px;
+    font-;
+}
+button {
+  padding: 5px 16px;
+  border-radius: 8px;
+  background: royalblue;
+  border: 1px solid royalblue;
+  color: white;
+}
+.content1,
+.content2,
+.content3,
+.footer,
+.header {
+    padding:0 200px;
+}
